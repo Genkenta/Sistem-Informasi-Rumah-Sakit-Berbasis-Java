@@ -1,24 +1,28 @@
-# Sistem-Pemesanan-Di-Cafe-Berbasis-Java
-Sistem pemesanan cafe berbasis Java. Pelanggan bisa pilih menu dan pesan, kasir dan admin bisa kelola pesanan serta daftar menu. Dikerjakan bertiga sebagai project tim.
+Sistem Informasi Rumah Sakit Berbasis Java
 
-Sistem Pemesanan Cafe
+Aplikasi console berbasis Java untuk mengurus pasien rumah sakit dari pendaftaran sampai pembayaran.
 
-Aplikasi pemesanan untuk cafe yang dibuat dengan Java. Pelanggan memilih menu
-dan membuat pesanan, lalu pesanan itu masuk ke kasir untuk diproses. Admin bisa
-menambah, mengubah, dan menghapus menu.
-
-Project ini dikerjakan oleh tim 3 orang.
+Petugas mendaftarkan pasien, memilih poliklinik, mencatat hasil pemeriksaan awal, menebus obat, lalu memproses pembayaran. Di akhir hari, program merangkum jumlah pasien dan total pendapatan.
 
 Fitur
-- Lihat daftar menu per kategori
-- Buat pesanan dan hitung total otomatis
-- Kelola menu (tambah, edit, hapus)
-- Riwayat pesanan
+
+- Pendaftaran pasien baru dengan kategori umur: anak, dewasa, lansia
+- Pilihan poliklinik dengan tarif konsultasi berbeda
+- Nomor antrean dan estimasi waktu tunggu
+- Pemeriksaan awal: hitung BMI, status suhu, dan status tekanan darah
+- Resep dan tebus obat, dengan pengecekan stok
+- Rawat inap: biaya dihitung dari kelas kamar dan lama menginap
+- Pembayaran dengan penjamin umum, BPJS, atau asuransi, plus hitungan kembalian
+- Ringkasan harian: total pasien, total pendapatan, sisa stok obat
 
 Tech
-- Java
+
+- Java (console)
 
 Tim
-- Genta Priya Kencana (@Genkenta)
-- Prasetya Adi Putra (@Rasethh)
-- Iqbal Rafianto Said (@RyujiIshida7)
+
+Kami mengerjakan project ini bertiga:
+
+- Genta Priya Kencana ([@Genkenta](https://github.com/Genkenta))
+- Prasetya Adi Putra ([@Rasethh](https://github.com/Rasethh))
+- Iqbal Rafianto Said ([@RyujiIshida7](https://github.com/RyujiIshida7))
